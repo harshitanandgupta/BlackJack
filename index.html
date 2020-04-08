@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>BlackJack</title>
+</head>
+<body>
+    <div class="cont">
+        <h1>BlackJack</h1>
+        <h3><span id="result-text" style="font-style: italic;">Lets Play!</span></h3>
+        <div class="flex-box-1">
+            
+            <div id="yourbox" class="flex-box-2">
+                <h3>You:<span id="yourscore">0</span></h3>
+                
+           </div>
+            <div id="dealerbox" class="flex-box-2">
+                <h3>Dealer:<span id="dealerscore">0</span></h3>
+            </div>
+        </div>
+        <div class="flex-box-3">
+            <div>
+                <button id="hit" class="btn btn-primary" >Hit</button>
+                <button id="stand" class="btn btn-warning">Stand</button>
+                <button id="deal" class="btn btn-danger">Deal</button>
+            </div>
+        </div>
+        <div class="flex-box-4">
+            <table>
+                <tr>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+                </tr>
+                <tr>
+                <td><span id="wins">0</span></td>
+                <td><span id="loses">0</span></td>
+                <td><span id="draws">0</span></td>
+
+             </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
